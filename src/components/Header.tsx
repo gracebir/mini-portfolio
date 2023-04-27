@@ -11,7 +11,7 @@ function Header() {
     }
   return (
     <header className="py-12 flex items-center lg:items-baseline justify-between px-4 lg:px-0">
-      <a href="#home" className="text-white text-2xl font-extrabold">{"{ Gr. }"}</a>
+      <a href="#home" className="bg-gradient-to-r from-[#13B0F5] text-transparent via-[#E70FAA] to-[#E70FAA] bg-clip-text text-2xl font-extrabold">{"{ Grac. }"}</a>
       <div onClick={toggle} className="lg:hidden cursor-pointer duration-200 transition">
         {!open ? <GiHamburgerMenu size={35}/>: <AiOutlineClose size={35}/>}
       </div>
