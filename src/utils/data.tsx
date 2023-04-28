@@ -1,24 +1,6 @@
-import html from '../assets/icons/vscode-icons_file-type-html.svg'
-import css from '../assets/icons/vscode-icons_file-type-css.svg'
-import javascript from '../assets/icons/vscode-icons_file-type-js-official.svg'
-import react from '../assets/icons/logos_react.svg'
-import electron from '../assets/icons/Vector.svg'
-import gitlogo from '../assets/icons/logos_git-icon.svg'
-import cibgreen from '../assets/icons/cib_greensock.svg'
-import bootstrap from '../assets/icons/logos_bootstrap.svg'
-import tailwindcss from '../assets/icons/vscode-icons_file-type-tailwind.svg'
-import sass from '../assets/icons/logos_sass.svg'
-import vscode from '../assets/icons/vscode-icons_file-type-vscode.svg'
-import github from '../assets/icons/akar-icons_github-fill.svg'
-import { projectType, techType } from './type'
 
-import project1 from '../assets/Rectangle 16.svg'
-import project2 from '../assets/Rectangle 18.svg'
-import project3 from '../assets/Rectangle 8.svg'
-import project4 from '../assets/Rectangle 24.svg'
-import project5 from '../assets/Rectangle 23.svg'
-import project6 from '../assets/Rectangle 22.svg'
-
+import { backend, bootstrap, cibgreen, company, css, distributed, electron, github, gitlogo, gitstart, html, javascript, mobile, project1, project2, project3, project4, project5, project6, react, sass, tailwindcss, vscode, web } from '../assets'
+import { experienceType, projectType, serviceType, techType } from './type'
 
 export const techStacks:Array<techType> = [
     {
@@ -97,3 +79,90 @@ export const projectData: Array<projectType> = [
         image: project6
     }
 ]
+
+export const experiences: Array<experienceType> = [
+    {
+      title: "React.js Developer",
+      company_name: "SkillyHub SAS",
+      icon: company,
+      iconBg: "#383E56",
+      date: "October 2019 - Dec 2021",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "ODK/Kobo toolbox Consultant",
+      company_name: "DataXchange group ",
+      icon: company,
+      iconBg: "#E6DEDD",
+      date: "Jan 2021 - Present",
+      points: [
+        "Analysis of the technical specifications of the electronic tools, database, and applications to be implemented for the Guinea PBF project.",
+        "Programming first the data collection form using the Kobo toolbox  for the health centers, hospitals, DPS, and DRS for the AGFA project in Guinea concerning the evaluation of the quality of the indicators, involving the survey questionnaires, the data collection forms.",
+        "Construction of electronic forms on Kobo for community surveys in health centers and hospitals, testing of Kobotoolbox electronic forms, and review of changes.",
+        "Building electronic forms on Kobotoolbox for community surveys in DPS and DRS, testing Kobotoolbox electronic forms, and review of changes.",
+      ],
+    },
+    {
+      title: "Software Engineer",
+      company_name: "Gitstart",
+      icon: gitstart,
+      iconBg: "#383E56",
+      date: "Nov 2021 - Sept 2022",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+        title: "Software Engineer (Freelancing)",
+        company_name: "R&I Software",
+        icon: company,
+        iconBg: "#383E56",
+        date: "Nov 2022 - Feb 2023",
+        points: [
+          "Developing and maintaining web applications using React.js and other related technologies.",
+          "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+          "Implementing responsive design and ensuring cross-browser compatibility.",
+          "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+      },
+    {
+      title: "Full stack Developer",
+      company_name: "Distributed",
+      icon: distributed,
+      iconBg: "#E6DEDD",
+      date: "Jan 2023 - Present",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+  ];
+
+  export const services: Array<serviceType> = [
+    {
+      title: "Web Developer",
+      icon: web,
+    },
+    {
+      title: "Desktop Developer",
+      icon: mobile,
+    },
+    {
+      title: "Backend Developer",
+      icon: backend,
+    },
+    {
+      title: "Full Stack Devepoler",
+      icon: web,
+    },
+  ];

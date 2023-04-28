@@ -13,3 +13,16 @@ export type projectType = {
     image: string
 }
 
+export type experienceType = {
+    title: string
+    company_name: string
+    icon: string
+    iconBg: string
+    date: string
+    points: Array<string>
+} 
+
+export type serviceType = {
+    title: string
+    icon: string
+}
