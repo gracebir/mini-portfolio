@@ -9,7 +9,7 @@ import Tech from "./components/Tech"
 
 function App() {
   return (
-    <div className="max-w-7xl mx-auto text-[#CCCCCC] md:px-6">
+    <div className="max-w-7xl mx-auto text-[#CCCCCC] px-4 md:px-6 overflow-x-hidden">
      <Header/>
      <Hero/>
      <About/>

@@ -9,7 +9,7 @@ function Projects() {
         <h1 className={`${styles.Title}`}>Projects</h1>
         <p className={`${styles.SubTile}`}>Things I’ve built so far</p>
       </div>
-      <div className="grid grid-cols-3 gap-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
         {projectData.map((project, i)=> (
           <Card 
           key={i} 
