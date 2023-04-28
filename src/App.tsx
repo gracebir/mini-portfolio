@@ -1,3 +1,4 @@
+import About from "./components/About"
 import Contact from "./components/Contact"
 import Experience from "./components/Experience"
 import Footer from "./components/Footer"
@@ -11,9 +12,10 @@ function App() {
     <div className="max-w-7xl mx-auto text-[#CCCCCC] md:px-6">
      <Header/>
      <Hero/>
+     <About/>
      <Tech/>
-     <Projects/>
      <Experience/>
+     <Projects/>
      <Contact/>
      <Footer/>
     </div>
