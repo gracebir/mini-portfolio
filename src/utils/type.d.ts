@@ -26,3 +26,8 @@ export type serviceType = {
     title: string
     icon: string
 }
+
+export type navModalType = {
+    visible: boolean
+    onClose: () => void
+}
