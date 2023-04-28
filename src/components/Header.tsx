@@ -22,8 +22,8 @@ function Header() {
         <a href="#home" className="text-xl font-medium hover:text-white duration-300">Home</a>
         <a href="#about" className="text-xl font-medium hover:text-white duration-300">About</a>
         <a href="#tech" className="text-xl font-medium hover:text-white duration-300">Tech Stack</a>
+        <a href="#experience" className="text-xl font-medium hover:text-white duration-300">Work</a>
         <a href="#projects" className="text-xl font-medium hover:text-white duration-300">Projects</a>
-        <a href="#contact" className="text-xl font-medium hover:text-white duration-300">Contact</a>
         <div className="flex gap-4 items-center">
           <a href="#"><BsFacebook size={23} /></a>
           <a href="#"><AiFillTwitterCircle size={25} /></a>

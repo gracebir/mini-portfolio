@@ -14,8 +14,8 @@ function NavMob({ visible, onClose }: navModalType) {
                 <a href="#home" onClick={() => onClose()} className="text-xl font-medium hover:text-white duration-300">Home</a>
                 <a href="#about" onClick={() => onClose()} className="text-xl font-medium hover:text-white duration-300">About</a>
                 <a href="#tech" onClick={() => onClose()} className="text-xl font-medium hover:text-white duration-300">Tech Stack</a>
+                <a href="#experience" onClick={() => onClose()} className="text-xl font-medium hover:text-white duration-300">Work</a>
                 <a href="#projects" onClick={() => onClose()} className="text-xl font-medium hover:text-white duration-300">Projects</a>
-                <a href="#contact" onClick={() => onClose()} className="text-xl font-medium hover:text-white duration-300">Contact</a>
                 <div className="flex gap-4 items-center">
                     <a href="#"><BsFacebook size={23} /></a>
                     <a href="#"><AiFillTwitterCircle size={25} /></a>
