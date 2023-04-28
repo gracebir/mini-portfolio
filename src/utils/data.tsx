@@ -10,7 +10,14 @@ import tailwindcss from '../assets/icons/vscode-icons_file-type-tailwind.svg'
 import sass from '../assets/icons/logos_sass.svg'
 import vscode from '../assets/icons/vscode-icons_file-type-vscode.svg'
 import github from '../assets/icons/akar-icons_github-fill.svg'
-import { techType } from './type'
+import { projectType, techType } from './type'
+
+import project1 from '../assets/Rectangle 16.svg'
+import project2 from '../assets/Rectangle 18.svg'
+import project3 from '../assets/Rectangle 8.svg'
+import project4 from '../assets/Rectangle 24.svg'
+import project5 from '../assets/Rectangle 23.svg'
+import project6 from '../assets/Rectangle 22.svg'
 
 
 export const techStacks:Array<techType> = [
@@ -61,5 +68,32 @@ export const techStacks:Array<techType> = [
     {
         title: 'github',
         imageUrl: github
+    }
+]
+
+export const projectData: Array<projectType> = [
+    {
+        id: 1,
+        image: project1
+    },
+    {
+        id: 2,
+        image: project2
+    },
+    {
+        id: 3,
+        image: project3
+    },
+    {
+        id: 4,
+        image: project4
+    },
+    {
+        id: 5,
+        image: project5
+    },
+    {
+        id: 6,
+        image: project6
     }
 ]
