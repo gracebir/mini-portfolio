@@ -1,11 +1,11 @@
-import { Classes } from "../utils/classNames"
+import { styles } from "../utils/classNames"
 import { techStacks } from "../utils/data"
 function Tech() {
     return (
-        <section id="tech" className="flex flex-col gap-32 mb-36">
-            <div className={`${Classes.FlexCol}`}>
-                <h1 className={`${Classes.Title}`}>My Tech Stack</h1>
-                <p className={`${Classes.SubTile}`}>Technologies I’ve been working with recently</p>
+        <section id="tech" className={styles.sections}>
+            <div className={`${styles.FlexCol}`}>
+                <h1 className={`${styles.Title}`}>My Tech Stack</h1>
+                <p className={`${styles.SubTile}`}>Technologies I’ve been working with recently</p>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-12">
                 {techStacks.map((tech, i) => (
