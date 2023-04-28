@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div className="flex flex-col gap-4 lg:flex-row lg:justify-between items-center">
       <a href="#home" className="bg-gradient-to-r from-[#13B0F5] text-transparent via-[#E70FAA] to-[#E70FAA] bg-clip-text text-2xl font-extrabold">{"{ Grac. }"}</a>
-      <div className="flex flex-col lg:flex-row gap-4 lg:gap-10">
+      <div className="flex flex-col items-center lg:flex-row gap-4 lg:gap-10">
         <span className="text-[18px] font-mediu">+250 780 869 394</span>
         <span className="text-[18px] font-medium">birindwan@gmail.com</span>
         <div className="flex gap-4 items-center">

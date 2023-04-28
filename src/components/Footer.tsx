@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="text-[18px] flex flex-col-reverse gap-5 lg:flex-row lg:justify-between mb-10">
+    <footer className="text-[18px] text-center lg:text-start flex flex-col-reverse gap-5 lg:flex-row lg:justify-between mb-10">
       <div className="flex flex-col lg:flex-row gap-5 lg:gap-8">
       <a href="#home">Home</a>
         <a href="#about">About</a>
