@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose, AiFillTwitterCircle } from 'react-icons/ai'
-import { BsFacebook, BsLinkedin } from 'react-icons/bs'
+import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import NavMob from "./NavMob";
 
 function Header() {
@@ -25,7 +25,7 @@ function Header() {
         <a href="#experience" className="text-xl font-medium hover:text-white duration-300">Work</a>
         <a href="#projects" className="text-xl font-medium hover:text-white duration-300">Projects</a>
         <div className="flex gap-4 items-center">
-          <a href="#"><BsFacebook size={23} /></a>
+          <a href="#"><BsGithub size={23} /></a>
           <a href="#"><AiFillTwitterCircle size={25} /></a>
           <a href="#"><BsLinkedin size={25} /></a>
         </div>
