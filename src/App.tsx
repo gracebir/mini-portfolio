@@ -17,6 +17,7 @@ function App() {
      <Experience/>
      <Projects/>
      <Contact/>
+     <hr className="my-10"/>
      <Footer/>
     </div>
   )
