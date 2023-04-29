@@ -11,7 +11,9 @@ function Tech() {
                 {techStacks.map((tech, i) => (
                     <div key={i} className="flex flex-col items-center gap-2">
                         <p className="font-semibold">{tech.title}</p>
-                        <img className="w-[113px] h-[101px]" src={tech.imageUrl} alt={tech.title} />
+                        <div className="w-[113px] h-[101px]">
+                        <img className="w-[113px] h-[101px] object-contain" src={tech.imageUrl} alt={tech.title} />
+                        </div>
                     </div>
                 ))}
             </div>
