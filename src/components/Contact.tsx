@@ -9,9 +9,9 @@ function Contact() {
         <span className="text-[18px] font-mediu">+250 780 869 394</span>
         <span className="text-[18px] font-medium">birindwan@gmail.com</span>
         <div className="flex gap-4 items-center">
-          <a href="#"><BsGithub size={23} /></a>
-          <a href="#"><AiFillTwitterCircle size={25} /></a>
-          <a href="#"><BsLinkedin size={25} /></a>
+          <a href="https://github.com/gracebir" target="_blank"><BsGithub size={23} /></a>
+          <a href="https://twitter.com/BirindwaGrace2" target="_blank"><AiFillTwitterCircle size={25} /></a>
+          <a href="https://www.linkedin.com/in/nshokano-grace-33b305185" target="_blank"><BsLinkedin size={25} /></a>
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose, AiFillTwitterCircle } from 'react-icons/ai'
+import { Link } from 'react-scroll'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import NavMob from "./NavMob";
 
@@ -19,15 +20,15 @@ function Header() {
       </div>
       <NavMob visible={open} onClose={onClose}/>
       <nav className="hidden lg:flex flex-col lg:flex-row lg:w-fit w-full items-center gap-8">
-        <a href="#home" className="text-xl font-medium hover:text-white duration-300">Home</a>
-        <a href="#about" className="text-xl font-medium hover:text-white duration-300">About</a>
-        <a href="#tech" className="text-xl font-medium hover:text-white duration-300">Tech Stack</a>
-        <a href="#experience" className="text-xl font-medium hover:text-white duration-300">Work</a>
-        <a href="#projects" className="text-xl font-medium hover:text-white duration-300">Projects</a>
+        <Link spy={true} smooth={true} offset={-70} duration={500} to="home" className="text-xl font-medium cursor-pointer hover:text-white duration-300">Home</Link>
+        <Link spy={true} smooth={true} offset={-70} duration={500}  to="about" className="text-xl font-medium cursor-pointer hover:text-white duration-300">About</Link>
+        <Link spy={true} smooth={true} offset={-70} duration={500}  to="tech" className="text-xl font-medium cursor-pointer hover:text-white duration-300">Tech Stack</Link>
+        <Link spy={true} smooth={true} offset={-70} duration={500}  to="experience" className="text-xl font-medium cursor-pointer hover:text-white duration-300">Work</Link>
+        <Link spy={true} smooth={true} offset={-70} duration={500}  to="projects" className="text-xl font-medium cursor-pointer hover:text-white duration-300">Projects</Link>
         <div className="flex gap-4 items-center">
-          <a href="#"><BsGithub size={23} /></a>
-          <a href="#"><AiFillTwitterCircle size={25} /></a>
-          <a href="#"><BsLinkedin size={25} /></a>
+          <a href="https://github.com/gracebir" target="_blank"><BsGithub size={23} /></a>
+          <a href="https://twitter.com/BirindwaGrace2" target="_blank"><AiFillTwitterCircle size={25} /></a>
+          <a href="https://www.linkedin.com/in/nshokano-grace-33b305185" target="_blank"><BsLinkedin size={25} /></a>
         </div>
       </nav>
     </header>
