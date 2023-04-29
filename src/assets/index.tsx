@@ -14,6 +14,8 @@ import tailwindcss from '../assets/icons/vscode-icons_file-type-tailwind.svg'
 import sass from '../assets/icons/logos_sass.svg'
 import vscode from '../assets/icons/vscode-icons_file-type-vscode.svg'
 import github from '../assets/icons/akar-icons_github-fill.svg'
+import python from '../assets/logopython.png'
+import express from '../assets/expressjs-icon.svg'
 
 import backend from "./backend.png";
 import mobile from "./mobile.png";
@@ -25,6 +27,7 @@ import project3 from '../assets/Rectangle 8.svg'
 import project4 from '../assets/Rectangle 24.svg'
 import project5 from '../assets/Rectangle 23.svg'
 import project6 from '../assets/Rectangle 22.svg'
+
 
 export { 
     gitstart, 
@@ -39,6 +42,8 @@ export {
     cibgreen,
     bootstrap,
     tailwindcss,
+    express,
+    python,
     sass,
     vscode,
     github,
