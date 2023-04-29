@@ -1,5 +1,5 @@
 
-import { backend, bootstrap, cibgreen, company, css, distributed, electron, github, gitlogo, gitstart, html, javascript, mobile, project1, project2, project3, project4, project5, project6, react, sass, tailwindcss, vscode, web } from '../assets'
+import { backend, bootstrap, company, css, distributed, express, github, gitlogo, gitstart, html, javascript, mobile, project1, project2, project3, project4, project5, project6, python, react, sass, tailwindcss, vscode, web } from '../assets'
 import { experienceType, projectType, serviceType, techType } from './type'
 
 export const techStacks:Array<techType> = [
@@ -20,8 +20,8 @@ export const techStacks:Array<techType> = [
         imageUrl: react
     },
     {
-        title: 'electron',
-        imageUrl: electron
+        title: 'express.js',
+        imageUrl: express
     },
     {
         title: 'bootstrap',
@@ -40,8 +40,8 @@ export const techStacks:Array<techType> = [
         imageUrl: gitlogo
     },
     {
-        title: 'cib green',
-        imageUrl: cibgreen
+        title: 'python',
+        imageUrl: python
     },
     {
         title: 'Vs code',
