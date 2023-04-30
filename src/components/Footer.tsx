@@ -11,8 +11,8 @@ function Footer() {
         <Link spy={true} smooth={true} offset={-70} duration={500} to="projects">Projects</Link>
       </div>
       <p>Built by &nbsp;
-        <span className="bg-gradient-to-r from-[#13B0F5] text-transparent via-[#13B0F5] to-[#E70FAA] bg-clip-text">Grace birindwa</span> with 
-        <span className="bg-gradient-to-r from-[#E70FAA] text-transparent via-[#E70FAA] to-[#13B0F5] bg-clip-text">Love</span> & 
+        <span className="bg-gradient-to-r from-[#13B0F5] text-transparent via-[#13B0F5] to-[#E70FAA] bg-clip-text">Grace birindwa</span> with &nbsp;
+        <span className="bg-gradient-to-r from-[#E70FAA] text-transparent via-[#E70FAA] to-[#13B0F5] bg-clip-text">Love</span>&nbsp; & &nbsp;
         <span className="bg-gradient-to-r from-[#E70FAA] text-transparent via-[#E70FAA] to-[#13B0F5] bg-clip-text">Tea</span></p>
     </footer>
   )
