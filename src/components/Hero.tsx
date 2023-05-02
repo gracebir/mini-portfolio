@@ -2,7 +2,7 @@ import profile from "../assets/da.avif"
 
 function Hero() {
     return (
-        <section id="home" className="flex flex-col-reverse gap-20 py-12 px-4 lg:px-0 lg:py-0 items-center lg:flex-row lg:justify-between lg:items-center h-[100vh] mb-32 lg:h-[87vh]">
+        <section id="home" className="flex flex-col-reverse gap-20 mt-14 md:mt-0 lg:mt-0 px-4 lg:px-0 lg:py-0 items-center lg:flex-row lg:justify-between lg:items-center h-[100vh] mb-32 lg:h-[87vh]">
             <h1 className="lg:text-6xl text-4xl font-bold lg:leading-[70px] leading-[50px]">
                 Hi 👋,<br /> My name is <br />
                 <span className="bg-gradient-to-r from-[#13B0F5] text-transparent via-[#13B0F5] to-[#E70FAA] bg-clip-text">Grace Birindwa</span> <br /> I build things for web
