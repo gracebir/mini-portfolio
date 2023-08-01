@@ -9,9 +9,9 @@ import Tech from "./components/Tech"
 
 function App() {
   return (
-    <div className="text-[#CCCCCC]">
+    <div className="text-[#CCCCCC] relative">
       <Header />
-      <div className="max-w-7xl mx-auto px-6 lg:px-0 md:px-6">
+      <div className="max-w-7xl left-0 right-0 absolute mx-auto px-6 top-20 lg:px-0 md:px-6">
         <Hero />
         <About />
         <Tech />
