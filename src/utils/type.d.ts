@@ -11,6 +11,7 @@ export type projectType = {
     live?: string
     code?: string
     image: string
+    techStacks: Array<string>
 }
 
 export type experienceType = {
