@@ -33,6 +33,7 @@ import country from '../assets/projects/countries.jpg'
 import amazon from '../assets/projects/amazon.png'
 import buymore from '../assets/projects/buymore.png'
 import landing from '../assets/projects/landing-page.jpg'
+import ageCalculator from '../assets/projects/calculator.jpg'
 
 
 export { 
@@ -65,6 +66,7 @@ export {
     country,
     amazon,
     buymore,
+    ageCalculator,
     web,
     mobile,
     backend
