@@ -28,6 +28,12 @@ import project4 from '../assets/Rectangle 24.svg'
 import project5 from '../assets/Rectangle 23.svg'
 import project6 from '../assets/Rectangle 22.svg'
 
+import multiForm from '../assets/projects/multi-step.jpg'
+import country from '../assets/projects/countries.jpg'
+import amazon from '../assets/projects/amazon.png'
+import buymore from '../assets/projects/buymore.png'
+import landing from '../assets/projects/landing-page.jpg'
+
 
 export { 
     gitstart, 
@@ -53,6 +59,12 @@ export {
     project4,
     project5,
     project6,
+
+    landing,
+    multiForm,
+    country,
+    amazon,
+    buymore,
     web,
     mobile,
     backend
