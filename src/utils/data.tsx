@@ -1,5 +1,5 @@
 
-import { backend, bootstrap, landing, buymore, amazon, ageCalculator,country, multiForm, company, css, distributed, express, github, gitlogo, gitstart, html, javascript, mobile, project1, project2, project3, project4, project5, project6, python, react, sass, tailwindcss, vscode, web } from '../assets'
+import { backend, bootstrap, landing, buymore, amazon, ageCalculator,country, multiForm, company, css, distributed, express, github, gitlogo, gitstart, html, javascript, mobile, python, react, sass, tailwindcss, vscode, web } from '../assets'
 import { experienceType, projectType, serviceType, techType } from './type'
 
 export const techStacks: Array<techType> = [
