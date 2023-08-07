@@ -10,7 +10,7 @@ const ProjectModal = ({ setOpen, id }: projectModalProp) => {
         <div className="fixed inset-0 backdrop-blur-sm right-0 w-full h-screen flex items-center z-50">
             <div className="max-w-5xl lg:h-3/4 h-screen bg-[#191919] mx-auto flex-1 p-4 rounded-md">
                 <button className="text-white" onClick={() => setOpen(false)}>
-                    <IoMdClose className="text-2xl" />
+                    <IoMdClose className="lg:text-4xl text-3xl" />
                 </button>
                 <div className="px-4 flex flex-col gap-4 lg:gap-6">
                     <div className="flex flex-col lg:flex-row gap-2">
