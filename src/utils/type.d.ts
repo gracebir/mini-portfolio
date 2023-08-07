@@ -4,6 +4,11 @@ export type techType = {
     imageUrl: string
 }
 
+export type projectModalProp = {
+    id?: number,
+    setOpen: React.Dispatch<React.SetStateAction<boolean>>
+}
+
 export type projectType = {
     id?: number
     title?: string
