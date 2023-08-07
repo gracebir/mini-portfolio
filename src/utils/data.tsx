@@ -1,5 +1,5 @@
 
-import { backend, bootstrap, landing, buymore, amazon, country, multiForm, company, css, distributed, express, github, gitlogo, gitstart, html, javascript, mobile, project1, project2, project3, project4, project5, project6, python, react, sass, tailwindcss, vscode, web } from '../assets'
+import { backend, bootstrap, landing, buymore, amazon, ageCalculator,country, multiForm, company, css, distributed, express, github, gitlogo, gitstart, html, javascript, mobile, project1, project2, project3, project4, project5, project6, python, react, sass, tailwindcss, vscode, web } from '../assets'
 import { experienceType, projectType, serviceType, techType } from './type'
 
 export const techStacks: Array<techType> = [
@@ -192,7 +192,7 @@ export const projects: Array<projectType> = [
     id: 6,
     title: "Age calculator",
     description: "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
-    image: project1,
+    image: ageCalculator,
     techStacks: ['Javascript', 'Tailwindcss', 'Formik', 'Responsive Design', 'DOM'],
     live: "https://age-calculator-henna-seven.vercel.app/",
     code: "https://github.com/gracebir/age-calculator"
