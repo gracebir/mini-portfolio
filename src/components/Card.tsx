@@ -1,8 +1,11 @@
 import { AiFillGithub } from 'react-icons/ai'
 import { BsLink45Deg } from 'react-icons/bs'
 import { projectType } from '../utils/type';
+import ProjectModal from './ProjectModal';
+import { useState } from 'react';
 
-function Card({ title, description, image, code, live, techStacks }: projectType) {
+function Card({ id, title, description, image, code, live, techStacks }: projectType) {
+    const [open, setOpen] = useState(false)
     return (
         <div className="lg:w-[373px] w-[300px] h-[567px] rounded-[20px] bg-[#363636] flex flex-col">
             <div className="w-full h-[260px]">
@@ -10,7 +13,7 @@ function Card({ title, description, image, code, live, techStacks }: projectType
             </div>
             <div className="px-6 py-4 flex flex-col gap-2">
                 <h3 className="lg:text-[1.75rem] text-[1.4rem] font-medium">{title}</h3>
-                <p className='text-[1rem] lg:text-[1.125rem] text-gray-400 font-light'>{(description)?.toString().substring(0, 128)}...</p>
+                <p className='text-[1rem] lg:text-[1.125rem] text-gray-400 font-light'>{(description)?.toString().substring(0, 128)} <button onClick={() => setOpen(true)} className='underline text-white font-medium'>read more..</button></p>
                 <p className='text-[1rem] font-light'> <span className='font-semibold'>Tech stack</span>: {techStacks.join(', ')}</p>
                 <div className="flex flex-row justify-between">
                     <a className='flex gap-2 items-center cursor-pointer' target='_blank' href={live}>
@@ -23,6 +26,7 @@ function Card({ title, description, image, code, live, techStacks }: projectType
                     </a>
                 </div>
             </div>
+            {open && <ProjectModal setOpen={setOpen} id={id} />}
         </div>
     )
 }
