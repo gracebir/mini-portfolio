@@ -16,6 +16,8 @@ function Projects() {
             title={project.title}
             techStacks={project.techStacks}
             description={project.description}
+            live={project.live}
+            code={project.code}
             image={project.image} />
         ))}
       </div>
