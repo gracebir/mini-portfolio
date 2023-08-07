@@ -13,6 +13,7 @@ function Projects() {
         {projects.map((project, _) => (
           <Card
             key={project.id}
+            id={project.id}
             title={project.title}
             techStacks={project.techStacks}
             description={project.description}
