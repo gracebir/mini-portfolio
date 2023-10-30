@@ -26,7 +26,36 @@ import {
     vscode,
     web,
 } from "../assets";
-import { experienceType, projectType, serviceType, techType } from "./type";
+import {
+    experienceType,
+    navLinkType,
+    projectType,
+    serviceType,
+    techType,
+} from "./type";
+
+export const headerLinks: Array<navLinkType> = [
+    {
+        id: "home",
+        linkName: "Home",
+    },
+    {
+        id: "about",
+        linkName: "About",
+    },
+    {
+        id: "tech",
+        linkName: "Tech Stack",
+    },
+    {
+        id: "experience",
+        linkName: "About",
+    },
+    {
+        id: "projects",
+        linkName: "Projects",
+    },
+];
 
 export const techStacks: Array<techType> = [
     {
