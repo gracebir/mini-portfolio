@@ -4,6 +4,10 @@ export type techType = {
     imageUrl: string
 }
 
+export type navLinkProps = { id: string; linkName: string; onClick: () => void }
+
+export type navLinkType = { id: string; linkName: string }
+
 export type projectModalProp = {
     id?: number,
     setOpen: React.Dispatch<React.SetStateAction<boolean>>
